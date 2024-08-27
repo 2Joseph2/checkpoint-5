@@ -1,0 +1,62 @@
+<html>
+  <head>
+    <title>Shopping Card</title>
+    <link rel="stylesheet" href="checkpoin5.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="totale"><p id="totalp">Shopping Bag total : $0</p></div>
+
+      <div class="row">
+        <i class="fas fa-trash-alt"></i> <i class="fas fa-heart"></i>
+        <img
+          src="data:image/jpeg;base64,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/">
+        <p><span>Pantalon</span></p>
+        <i class="fas fa-plus-square add"></i>
+        <p class="qte">0</p>
+        <i class="fas fa-minus-square minus"></i>
+        <p>$<span class="price">250</span></p>
+      </div>
+
+      <div class="row">
+        <i class="fas fa-trash-alt"></i>
+        <i class="fas fa-heart"></i>
+        <img
+          src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.6O2LBO_m-tBQaUH2cJzlZwHaHa%26pid%3DApi&sp=1724410909Te9ce784b3b60a2d63a2556561838bdf714c474fbcfb42f70deec58e24960f50c"
+        />
+        <p>
+          <span
+            > Nike Air Force <br />
+            1 Blanche</span
+          >
+        </p>
+        <i class="fas fa-plus-square add"></i>
+        <p class="qte">0</p>
+        <i class="fas fa-minus-square minus"></i>
+        <p>$<span class="price">300</span></p>
+      </div>
+
+      <div class="lastrow">
+        <i class="fas fa-trash-alt"></i> <i class="fas fa-heart"></i>
+        <img
+          src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fassets.laboutiqueofficielle.com%2Fw_1100%2Cq_auto%2Cf_auto%2Fmedia%2Fproducts%2F2019%2F08%2F07%2Fadidas_192951_EK2995_20190814T143204_01.jpg&sp=1724411297T01f6d3bc404243b04309c991b96e8a7a4e0db76f2905677f56ba0c3483816397"
+        />
+        <p><span>adidas casquette 
+            <br>besab original</span></p>
+        <i class="fas fa-plus-square add"></i>
+        <p class="qte">0</p>
+        <i class="fas fa-minus-square minus"></i>
+        <p>$<span class="price">99</span></p>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="checkpoint5.js"></script>
+  </body>
+</html>
